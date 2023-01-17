@@ -1,32 +1,4 @@
-# open-ai chat-gpt php api
-Use OpenAi.com API
-
-## Learn more about Open-AI API
-https://beta.openai.com/docs/api-reference/introduction
-
-## Installation
-This project using composer.
-```
-$ composer require itquelle/open-ai-chatgpt-php
-```
-
-## Fine tuning
-```php
-$app->setOptionModel(...);
-$app->setOptionTemperature(...);
-$app->setOptionMaxTokens(...);
-$app->setOptionTopT(...);
-$app->setOptionFrequencyPenalty(...);
-$app->setOptionPresencePenalty(...);
-```
-
-## Get object
-```php
-var_dump(
-    $app->getResponseRaw()
-);
-```
-
+# ChatGPT Detector
 ## Usage
 Translate language
 
