@@ -12,7 +12,7 @@ $app = new Api("...");
 $app->setPrompt("Translate this into 1.English, 2.French: Hallo");
 $app->get();
 
-$response = trim(
+$response = trim( 
     $app->getResponseText()
 );
 
