@@ -7,7 +7,7 @@ use OpenAiApi\Api;
  * @author Stevie-Ray
  * @template Example to translate an input into another language
  */
-
+ 
 $app = new Api("...");
 $app->setPrompt("Translate this into 1.English, 2.French: Hallo");
 $app->get();
